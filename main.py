@@ -1,20 +1,13 @@
-name="Dominik"
-surname="Kuźnik"
-post=5
+users: list[dict] = [
+    {'name': 'Jakub', 'surname': 'Kołodziejczyk', 'post':2},
+    {'name': 'Kacper', 'surname': 'Macioch', 'post':5},
+    {'name': 'Dominik', 'surname': 'Kuźnik', 'post':8},
+    {'name': 'Michał', 'surname': 'Krzywiński', 'post':10},
 
-print (f"Twój znajomy {name} {surname} opublikował {post} postów")
+]
 
-name_2="Jakub"
-surname_2="Kołodziejczyk"
-post_2=8
-
-print (f"Twój znajomy {name_2} {surname_2} opublikował {post_2} postów")
-
-name_3="Kacper"
-surname_3="Macioch"
-post_3=10
-
-print (f"Twój znajomy {name_3} {surname_3} opublikował {post_3} postów")
+for user in users:
+    print(f'Twój znajomyuser {user["name"]} opublikował: {user["post"]} postów')
 
 
 
