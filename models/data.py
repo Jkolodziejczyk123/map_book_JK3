@@ -1,7 +1,7 @@
-users: list[dict] = [
-    {'name': 'Jakub', 'surname': 'Kołodziejczyk', 'post':2},
-    {'name': 'Kacper', 'surname': 'Macioch', 'post':5},
-    {'name': 'Dominik', 'surname': 'Kuźnik', 'post':8},
-    {'name': 'Michał', 'surname': 'Krzywiński', 'post':10},
-
+users: list[dict[str, str]] = [
+    {'name': 'Kuba', 'surname': 'Kołodziejczyk', 'post': 1},
+    {'name': 'Kacper', 'surname': 'Macioch', 'post': 2},
+    {'name': 'Michał', 'surname': 'Krzywiński', 'post': 3},
+    {'name': 'Tymon', 'surname': 'Leszczyc', 'post': 2},
+    {'name': 'Michał', 'surname': 'Lębryk', 'post': 2},
 ]
